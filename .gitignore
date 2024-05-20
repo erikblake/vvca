@@ -1,0 +1,182 @@
+# Stuff to not include in git for this project
+# e.g.:
+#Archive/*
+Documentation/*
+html/*
+latex/*
+lib/*
+Config.h
+Config.c
+GP1*/*
+GR1*/*
+TG1*/*
+GP3*/*
+GR3*/*
+TG3*/*
+wiki*.txt
+
+#----------------------------------------------------------------------------
+# The lines below apply to all projects (C++, C, Eagle, etc.)
+
+# temporary files
+*.~
+*.bak
+*.BAK
+~*.*
+
+# TeX
+*.gz
+*.sav
+
+# Ignore files created by asm4doxy
+*-s.c
+
+# Eagle
+*.l#*
+*.s#*
+*.b#*
+
+# Borland CBuilder4
+*.~h
+*.~cp
+*.~df
+*.~bp
+*.~ds
+
+# Resource editor
+*.~res
+
+# Borland CBuilder XE3/XE8 (see http://docwiki.embarcadero.com/RADStudio/Seattle/en/File_Extensions_of_Files_Generated_by_RAD_Studio)
+*__history/*
+*__recovery/*
+*.~dsk
+*.apk
+*.bpi
+*.bpl
+*.cbproj.local
+*.cgl
+*.csm
+*.d
+*.dcp
+*.dcu
+*.dct
+*.dll
+*.drc
+*.dres
+*.dsk
+*.dst
+*.dSYM
+*.dylib
+*.entitlements
+*.exe
+*.exe.incr
+*.fsf
+*.i
+*.identcache
+*.ilc
+*.ild
+*.ilf
+*.ilr
+*.ils
+*.info.plist
+*.ipa
+*.lib
+*.local
+*.map
+*.o
+*.obj
+*.ocx
+*.pch
+*.pdi
+*.plist
+*.profile
+*.res
+*.rc
+*.rsm
+*.sdk
+*.so
+*.stat
+*.tds
+*.tlb
+*.tvsconfig
+*.vlb
+*.#??
+
+# Microchip (to avoid achiving object files, hex output, disassemblies, bootloader, and map files)
+*.o.d
+*.hex
+*.disasm
+*.gbl
+*.map.txt
+
+# Microchip ignores recommended in MPLAB X IDE User’s Guide, rev D (plus a few more by Erik)
+build/*
+dist/*
+debug/*
+disassembly*/*
+nbproject/private/*
+nbproject/Makefile-*
+nbproject/Package-*
+.generated_files/*
+
+# binary output
+*.[ao]
+*.obj
+*.exe
+*.EXE
+*.dll
+*.exp
+*.pch
+*.tds
+*.ncb
+*.bsc
+*.tre
+*.dsk
+
+# PICC compiler temporary files
+*.lst
+*.sym
+*.cof
+*.err
+*.esym
+*.sta
+*.xsym
+*.pjt
+*.ccspjt
+
+# Visual Studio 2008 build output
+BuildLog.htm
+*.pdb
+*.pch
+*.idb
+*.idl
+*.cache
+*.FileListAbsolute.txt
+*.manifest
+*.manifest.res
+
+# Visual Studio 2008 binary files
+*.ncb
+*.suo
+*.resources
+
+# Visual Studio testing metadata
+*.vsmdi
+
+# Visual Studio user files
+*.user
+
+# Visual Studio other
+*.datasource
+
+# miscellaneous
+Thumbs.db
+*.jbf
+*.lnk
+*.SEQ
+*.seq
+*.map
+*.MAP
+*.zip
+*.ZIP
+*.pdf
